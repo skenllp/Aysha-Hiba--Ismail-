@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Aysha Hiba & Ismail Siyad | 18th October 2026</title>
+  <meta name="description"
+    content="Together with our families, Aysha Hiba and Ismail Siyad invite you to their wedding celebrations on 18th October 2026.">
+
+  <link rel="canonical" href="https://aysha-hiba-ismail.vercel.app/">
+
+  <!-- Favicon / Icons -->
+  <link rel="icon" type="image/jpeg" href="assets/og.jpg">
+  <link rel="apple-touch-icon" href="assets/og.jpg">
+  <meta name="theme-color" content="#842337">
+
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Aysha Hiba & Ismail Siyad">
+  <meta property="og:url" content="https://aysha-hiba-ismail.vercel.app/">
+  <meta property="og:title" content="Aysha Hiba & Ismail Siyad | Wedding Invitation">
+  <meta property="og:description"
+    content="18th October 2026 - Sunday. Two families united in love, embarking on a blessed journey together.">
+  <meta property="og:image" content="https://aysha-hiba-ismail.vercel.app/assets/og.jpg?v=2">
+  <meta property="og:image:secure_url" content="https://aysha-hiba-ismail.vercel.app/assets/og.jpg?v=2">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Aysha Hiba & Ismail Siyad Wedding Invitation">
+  <meta property="og:locale" content="en_US">
+
+  <!-- WhatsApp / Schema.org Fallback -->
+  <meta itemprop="name" content="Aysha Hiba & Ismail Siyad | Wedding Invitation">
+  <meta itemprop="description" content="18th October 2026 - Sunday. Two families united in love, embarking on a blessed journey together.">
+  <meta itemprop="image" content="https://aysha-hiba-ismail.vercel.app/assets/og.jpg?v=2">
+  <link rel="image_src" href="https://aysha-hiba-ismail.vercel.app/assets/og.jpg?v=2">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://aysha-hiba-ismail.vercel.app/">
+  <meta name="twitter:title" content="Aysha Hiba & Ismail Siyad | Wedding Invitation">
+  <meta name="twitter:description"
+    content="18th October 2026 - Sunday. Two families united in love, embarking on a blessed journey together.">
+  <meta name="twitter:image" content="https://aysha-hiba-ismail.vercel.app/assets/og.jpg?v=2">
+  <meta name="twitter:image:alt" content="Aysha Hiba & Ismail Siyad Wedding Invitation">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Mrs+Saint+Delafield&family=EB+Garamond:ital@0;1&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Background music (autoplay, loop) -->
+  <audio id="bg-music" loop preload="auto" playsinline>
+    <source src="assets/music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- Mute / Unmute button — fixed bottom-left, always visible -->
+  <button id="mute-btn" aria-label="Toggle music" title="Toggle music">
+    <svg id="icon-sound" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round">
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+    </svg>
+    <svg id="icon-muted" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+      stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+      <line x1="23" y1="9" x2="17" y2="15"></line>
+      <line x1="17" y1="9" x2="23" y2="15"></line>
+    </svg>
+  </button>
+
+  <!-- SVG defs for gold gradient used by cross icons -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <linearGradient id="crossGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#F3E4C9" />
+        <stop offset="50%" stop-color="#C39A3E" />
+        <stop offset="100%" stop-color="#8C6A21" />
+      </linearGradient>
+      <linearGradient id="crossGradDark" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#9C5A50" />
+        <stop offset="100%" stop-color="#6E362D" />
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <!-- ============ COVER / OPENING ANIMATION ============ -->
+  <div id="cover">
+    <div class="fold left">
+      <div class="cover-top">
+        <div class="cover-arabic">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+        <p class="cover-verse">Two families united in love,
+          <span class="cover-verse-ref">Beginning a Blessed Journey</span>
+        </p>
+      </div>
+      <div class="cover-bottom">
+        <div class="cover-name">
+          <div class="n">Aysha Hiba</div>
+          <div class="r">The Bride</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cover-center" id="tapToOpen">
+      <div class="seal">
+        <span style="font-family:'Playfair Display', serif; font-weight:500; font-size:26px; letter-spacing:0.04em; color:#C39A3E; background:linear-gradient(160deg,#F3E4C9,#C39A3E 55%,#8C6A21); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;">A&nbsp;&amp;&nbsp;I</span>
+      </div>
+      <div class="tap-label">Tap to open</div>
+    </div>
+
+    <div class="fold right">
+      <div class="cover-top" style="visibility:hidden">
+        <div class="cover-arabic">℣</div>
+        <p class="cover-verse">placeholder</p>
+      </div>
+      <div class="cover-bottom">
+        <div class="cover-name">
+          <div class="n">Ismail Siyad</div>
+          <div class="r">The Groom</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ MAIN CONTENT ============ -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-photo-bg"></div>
+      <div class="hero-arabic">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+      <p class="hero-verse">“Two hearts, joined by faith and love, begin a beautiful new journey together.”<br>
+        <span class="hero-verse-ref">With Love &amp; Prayers</span>
+      </p>
+      <h1 class="hero-names">
+        Aysha Hiba<br>
+        <span class="hero-amp">&amp;</span><br>
+        Ismail Siyad
+      </h1>
+      <div class="hero-date">18th October 2026 · Sunday</div>
+      <p class="hero-tag">are becoming one, and we'd love for you to witness it</p>
+      <div class="scroll-cue"><span>Scroll</span>
+        <div class="chev"></div>
+      </div>
+    </section>
+
+    <!-- COUNTDOWN -->
+    <section class="countdown">
+      <div class="eyebrow light">Counting Down</div>
+      <h2>Until Our Special Day</h2>
+      <div class="divider light"><span class="line"></span><span class="gem"></span><span class="line"></span></div>
+      <div class="countdown-grid" id="countdown">
+        <div class="cbox">
+          <div class="cnum" id="cd-days">00</div>
+          <div class="clabel">Days</div>
+        </div>
+        <div class="cbox">
+          <div class="cnum" id="cd-hours">00</div>
+          <div class="clabel">Hours</div>
+        </div>
+        <div class="cbox">
+          <div class="cnum" id="cd-mins">00</div>
+          <div class="clabel">Minutes</div>
+        </div>
+        <div class="cbox">
+          <div class="cnum" id="cd-secs">00</div>
+          <div class="clabel">Seconds</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INVITATION -->
+    <section class="invite">
+      <div class="eyebrow">With Joyful Hearts</div>
+      <div class="divider"><span class="line"></span><span class="gem"></span><span class="line"></span></div>
+      <p class="invite-lead">Together with our beloved parents and families, we joyfully invite you to witness and
+        celebrate our <em>Wedding</em>.</p>
+
+      <div class="couple-row">
+        <div class="couple-col">
+          <div class="role">The Bride</div>
+          <div class="name">Aysha Hiba</div>
+          <div class="parents">Daughter of Safeera &amp; Muhammed Iqbal Pullambi</div>
+          <div class="parents" style="font-size:14.5px; margin-top:2px;">Nuchikad, Pilakool, Thalassery</div>
+        </div>
+        <div class="amp">&amp;</div>
+        <div class="couple-col">
+          <div class="role">The Groom</div>
+          <div class="name">Ismail Siyad</div>
+          <div class="parents">Son of Naseema &amp; Sooppy Haji</div>
+          <div class="parents" style="font-size:14.5px; margin-top:2px;">Thengoth House</div>
+        </div>
+      </div>
+
+      <p class="invite-note">Your gracious presence and heartfelt prayers will make our celebration complete as we begin
+        this new chapter, hand in hand.</p>
+
+      <div class="dua-block">
+        <p class="dua-arabic">بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ</p>
+        <p class="dua-translation">"May Allah bless you both, shower His blessings upon you, and unite you in
+          goodness."</p>
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section class="events">
+      <div class="eyebrow">Celebrations</div>
+      <h2>Events</h2>
+      <div class="divider"><span class="line"></span><span class="gem"></span><span class="line"></span></div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Reception</h3>
+          <div class="card-row"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="16" y1="2" x2="16" y2="6"></line>
+                <line x1="8" y1="2" x2="8" y2="6"></line>
+                <line x1="3" y1="10" x2="21" y2="10"></line>
+              </svg></span>
+            <div>
+              <div class="t1">18th October 2026 — Sunday</div>
+            </div>
+          </div>
+          <div class="card-row"><span class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg></span>
+            <div>
+              <div class="t1">Wedding Venue</div>
+              <div class="t2">Thalassery, Kerala</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VENUE -->
+    <section class="venue">
+      <div class="eyebrow">Where To Find Us</div>
+      <h2>Venues</h2>
+      <div class="divider"><span class="line"></span><span class="gem"></span><span class="line"></span></div>
+
+      <div class="venue-cards">
+        <!-- Bride's Location -->
+        <div class="venue-card">
+          <div class="venue-tag">✦ Bride's Location ✦</div>
+          <div class="venue-name">Nuchikad House</div>
+          <div class="venue-addr">11°44'38.3"N 75°29'39.4"E</div>
+          <div class="venue-map">
+            <a href="https://www.google.com/maps/search/?api=1&query=11.743972,75.494278" target="_blank"
+              rel="noopener" title="Open Bride's Location in Google Maps">
+              <img src="assets/bride location.png" alt="Bride's Location Map — Pilakool, Thalassery" loading="lazy">
+            </a>
+          </div>
+          <a class="venue-btn" href="https://www.google.com/maps/search/?api=1&query=11.743972,75.494278"
+            target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Get Direction
+          </a>
+        </div>
+
+        <!-- Groom's Location -->
+        <div class="venue-card">
+          <div class="venue-tag">✦ Groom's Location ✦</div>
+          <div class="venue-name">Thengoth House</div>
+          <div class="venue-addr">11°41'01.3"N 75°39'14.9"E</div>
+          <div class="venue-map">
+            <a href="https://www.google.com/maps/search/?api=1&query=11.683694,75.654139" target="_blank"
+              rel="noopener" title="Open Groom's Location in Google Maps">
+              <img src="assets/groom location.png" alt="Groom's Location Map — Thengoth House" loading="lazy">
+            </a>
+          </div>
+          <a class="venue-btn" href="https://www.google.com/maps/search/?api=1&query=11.683694,75.654139"
+            target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            Get Direction
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="closing">
+      <div class="closing-arabic">جَزَاكُمُ اللَّهُ خَيْرًا
+        <span class="closing-arabic-sub">Thank you, and may Allah reward you with goodness</span>
+      </div>
+
+      <div class="closing-eyebrow">With Best Regards &amp; Duas</div>
+      <p class="closing-lead">The Families of</p>
+      <div class="names">Aysha Hiba &amp; Ismail Siyad</div>
+
+      <p class="msg">May Allah bless their journey together<br>with love, happiness and endless barakah.</p>
+
+      <div class="closing-signoff">
+        <div class="signoff-note">With Love &amp; Prayers</div>
+        <div class="signoff-fam">Both Families</div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
