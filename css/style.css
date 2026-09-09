@@ -458,11 +458,14 @@
     }
 
     .hero-date {
-      letter-spacing: 0.35em;
+      font-family: 'Cinzel', 'EB Garamond', Georgia, serif;
+      font-weight: 500;
+      font-size: clamp(13px, 2.7vw, 16.5px);
+      letter-spacing: clamp(0.16em, 0.4vw, 0.26em);
       text-transform: uppercase;
-      font-size: 18px;
       color: var(--ink-soft);
-      margin-top: 4px;
+      margin-top: 6px;
+      line-height: 1.5;
     }
 
     .hero-tag {
